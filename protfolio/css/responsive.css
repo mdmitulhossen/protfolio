@@ -1,0 +1,164 @@
+/*======== Header =========*/
+@media screen and (min-width:50rem) {
+    .nav .nav_menu {
+        font-size: 1.6rem;
+    }
+    .nav .nav_menu a {
+        margin: 0 0.8rem;
+    }
+}
+ @media screen and (max-width:46.5rem) {
+    header .home {
+       left: 10rem;
+       top: 20rem;
+    }
+    header .home h1 {
+        font-size: 2.5rem;
+    }
+} 
+
+/*======== End Header =========*/
+
+/*======== End Header =========*/
+
+@media screen and (max-width:65rem){
+    section .about_container {
+        width: 75%;
+    }
+}
+
+/*======== End Header =========*/
+
+/*======== complete =========*/
+
+@media screen and (max-width:620px) {
+    .complete {
+        height: 34rem;
+    }
+    .complete .com_container {
+        flex-direction: column;
+        
+    }
+    .complete .com_container .pro {
+        margin-top: 4rem;
+    }
+    .complete .com_container .project {
+        margin-top: 10rem;
+
+    }
+}
+
+/*======== End complete =========*/
+
+/*======== photo complete =========*/
+
+@media screen and (max-width:750px) {
+    .photos .photo_container .pic {
+        width: 24.4%;
+    }
+}
+
+/*======== End photo  =========*/
+
+/*======== video =========*/
+
+@media screen and (max-width:46.5rem) {
+    .videos .video {
+        top: 48rem;
+    }
+}
+
+/*======== End video =========*/
+
+/*======== services =========*/
+
+@media screen and (max-width:750px) {
+    .services .service {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .services .service {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .services {
+        height: 73.5rem;
+    }
+} 
+@media screen and (max-width:420px) {
+    .services .service {
+        grid-template-columns: 1fr 1fr;
+    }
+    .services {
+        height: 93.5rem;
+    }
+}
+/*======== End services =========*/
+
+/*======== comment =========*/
+
+@media screen and (max-width:650px) {
+    .comments .comment {
+        width: 95%;
+    }
+    .comments .comment p {
+        margin-top: 10rem;
+    }
+}
+
+
+/*======== End comment =========*/
+
+/*======== End company =========*/
+
+@media screen and (max-width:650px) {
+    .company .company_container {
+        flex-direction: column;
+    }
+}
+
+/*======== End company =========*/
+
+/*======== form =========*/
+
+@media screen and (max-width:650px) {
+    .form .form_container {
+        width: 90%;
+    }
+    .form {
+        margin-top: 50rem;
+    }
+}
+
+/*======== end form =========*/
+
+/*======== footer =========*/
+
+@media screen and (max-width:950px) {
+    footer .footer_container .foo:nth-of-type(3) div:nth-of-type(2) {
+        display: block;
+        margin: 0;
+    }
+}
+@media screen and (max-width:510px) {
+    footer .footer_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5rem;
+    }
+    footer .footer_container .foo:nth-of-type(3) div:nth-of-type(2) {
+        display: inline-block;
+        margin-left: 5rem;
+    }
+    footer {
+        height: 35rem;
+    }
+}
+@media screen and (max-width:405px) {
+    footer .footer_container .foo:nth-of-type(3) {
+        display: none;
+    }
+}
+
+/*======== end footer =========*/
